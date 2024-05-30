@@ -1,8 +1,14 @@
 
-.nav-link{
-    color: rgb(18, 18, 175);
-    font-size: 1.4rem;
+.navbar-brand{
+    margin: 2%;
 }
+
+.nav-link{
+    color: rgb(23, 23, 155);
+    font-size: 1rem;
+    margin-left: 50px;
+}
+
 .btn.btn-primary {
     font-size: 1.2rem;
     font-style: normal;
@@ -11,3 +17,14 @@
     border-color:hsl(0, 0%, 0%);
     background-color: aliceblue;
 }
+
+h2{
+    color: rgb(23, 23, 155);
+    font-size: 2.5rem; 
+    margin-top: 150px;
+}
+
+.card{
+    margin: 3.5%;
+}
+
