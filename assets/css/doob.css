@@ -4,7 +4,7 @@
 }
 
 .nav-link{
-    color: rgb(23, 23, 155);
+    color: rgb(21,43,87);
     font-size: 1rem;
     margin-left: 50px;
 }
@@ -19,7 +19,7 @@
 }
 
 h2{
-    color: rgb(23, 23, 155);
+    color: rgb(21,43,87);
     font-size: 2.5rem; 
     margin-top: 150px;
 }
@@ -34,4 +34,33 @@ h2{
 
 .mb-3.text-center{
     font-size: 4rem;
+}
+
+.footer-container1{
+    background-color: rgb(21,43,87);
+    text-align: center;
+    padding:75px;
+}
+
+.footer-logo{
+    color: rgb(255, 255, 255);
+    font-size:20px;
+}
+
+.footer-logo2{
+    color: rgb(240, 17, 17);
+    font-size:50px;   
+}
+
+.footer-link {
+    color: aliceblue;
+    font-size:20px;
+    padding: 20px;
+    text-decoration: none;
+    line-height:5;
+}
+
+.footer-direitos {
+    color: aliceblue;
+    font-size:15px;
 }
