@@ -10,42 +10,48 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg  ">
-    <a class="navbar-brand" href="#"><img img height="30px" src="/assets/images/Logo.png" alt=""></a>
-    <div class="container-xl">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#">Home.</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About us.</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio.</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog.</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact us.</a>
-          </li>
 
-          <div>
-            <select class="nav-link" name="linguagem" id="linguagem" onclick="verEstados()">
-              <option value="En" selected>En</option>
-            </select>
-          </div>
+  <div class="background-container">
+    <div class="background-image"></div>
+    <nav class="navbar navbar-expand-lg" id="section01">
+      <a class="navbar-brand" href="#"><img img height="30px" src="/assets/images/Logo.png" alt=""></a>
+      <div class="container-xl">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Home.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us.</a>
+            </li>
 
-          <button type="button" class="btn btn-primary">Contact Us</button>
-        </ul>
+            <div>
+              <select class="nav-link" name="linguagem" id="linguagem" onclick="verEstados()">
+                <option value="En" selected>En</option>
+              </select>
+            </div>
+
+            <button type="button" class="btn btn-primary">Contact Us</button>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+
+
+  </div>
 
 
   <section class="container-xxl ">
@@ -67,7 +73,7 @@
   </section>
 
 
-  <section class="container-xl mt-3">
+  <section class="container-xxl">
     <div class="row">
       <div class="col-lg col-12 border-1">
         <h2 class="text-center">Anything you need, we´ve got you covered</h2>
@@ -89,6 +95,53 @@
       </div>
 
   </section>
+
+  <div class="container-fluid bg-dark text-wrap footer pt-3 mt-5 wow fadeIn" data-wow-delay="0.1s"
+    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+
+    <h2 class="text-white mb-2 text-center ">DOOB</h2>
+    <h4 class="text-danger mb-3 text-center">CREATIVITY ABOVE</h4>
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg col-md">
+          <h4 class="text-white mb-3">Home</h4>
+        </div>
+        <div class="col-lg col-md">
+          <h4 class="text-white mb-3">About us</h4>
+        </div>
+        <div class="col-l col-md">
+          <h4 class="text-white mb-3">Portfolio</h4>
+        </div>
+        <div class="col-lg col-md">
+          <h4 class="text-white mb-3">Blog</h4>
+        </div>
+        <div class="col-lg col-md">
+          <h4 class="text-white mb-3">Contact us</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+      <div class="d-flex pt-2">
+        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="redes">
+        <div class="row">
+          <div class="col-md-12 text-center text-white mb-3 mb-md-0 mx-auto">
+            <p class="text-center">
+              <span style="font-size: 20px;">© 2019 - Doob, All Right Reserved</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+
+
 
   <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
